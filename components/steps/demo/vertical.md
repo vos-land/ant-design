@@ -19,9 +19,13 @@ const Step = Steps.Step;
 
 ReactDOM.render(
   <Steps direction="vertical" current={1}>
-    <Step title="Finished" description="This is a description." />
-    <Step title="In Progress" description="This is a description." />
-    <Step title="Waiting" description="This is a description." />
+    <Step title="立项" description="This is a description." />
+    <Step title="专家会" description="This is a description." />
+    <Step title="监理招标" description="This is a description." />
+    <Step title="招标" description="This is a description." />
+    <Step title="建设" description="This is a description." />
+    <Step title="初验" description="This is a description." />
+    <Step title="终验" description="This is a description." />
   </Steps>
 , mountNode);
 ````
